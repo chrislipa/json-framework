@@ -857,7 +857,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -876,7 +876,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SBJsonLib/SBJsonLib-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -942,6 +942,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "SBJson/SBJson-Prefix.pch";
 				INFOPLIST_FILE = "SBJson/SBJson-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = framework;
@@ -961,6 +962,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "SBJson/SBJson-Prefix.pch";
 				INFOPLIST_FILE = "SBJson/SBJson-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = framework;
@@ -1088,6 +1090,7 @@
 				36A2B2A715DF5D9700DAB3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC1232361391D5CC00131607 /* Build configuration list for PBXProject "SBJson" */ = {
 			isa = XCConfigurationList;
